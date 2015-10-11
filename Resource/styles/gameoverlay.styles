@@ -3,7 +3,7 @@ gameoverlay.styles {
 	include "resource/styles/steam.styles"
 
 	colors {
-		Notifications.PanelPosition "BottomRight"
+		Notifications.PanelPosition "TopRight"
 
 		A2OverlayBackground			"0 0 0 50"						//overlay bg
 		A2OverlayBar						"75 75 75 125"				//overlay topbar bg (A2Bar in dark theme)
