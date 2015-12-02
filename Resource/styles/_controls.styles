@@ -2,28 +2,28 @@ controls.styles {
 
 	styles {
 		FrameMinimizeButton
-			{ minimum-height=22 minimum-width=22 render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_min )" } }
+			{ }
 
 		FrameMinimizeButton:hover
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_min_hover )" } }
+			{ }
 
 		FrameMaximizeButton
-			{ minimum-height=22 minimum-width=22 render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_max )" } }
+			{ }
 
 		FrameMaximizeButton:hover
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_max_hover )" } }
+			{ }
 
 		FrameRestoreButton
-			{ minimum-height=22 minimum-width=22 render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_restore )" } }
+			{ }
 
 		FrameRestoreButton:hover
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_restore_hover )" } }
+			{ }
 
 		FrameCloseButton
-			{ minimum-height=22 minimum-width=22 render_bg { 0="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_close )" } }
+			{ }
 
 		FrameCloseButton:hover
-			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/secondary/controls/win_close_hover )" } }
+			{ }
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 		//-------------------------------------------------------------------------------------------------------------------------------//

@@ -94,65 +94,31 @@ Scheme
 
 			frame_title
 			{
-				xpos	0
-				ypos	1
-				wide	max
-				tall	28
-				AutoResize	1
+				visible 0
 			}
 
 			frame_captiongrip
 			{
-				xpos	4
-				ypos	4
-				wide	r20
-				tall	60
-				AutoResize	1
+				visible 0
 			}
 
 			frame_minimize
 			{
-				xpos	r45
-				xpos	22 [$OSX]
-				ypos	7
-				ypos	3 [$OSX]
-				wide	20
-				tall	20
-				PinCorner	1
-				PinCorner	0 [$OSX]
+				visible 0
 			}
 
 			frame_maximize
 			{
-				xpos	r59
-				xpos	43 [$OSX]
-				ypos	7
-				ypos	3 [$OSX]
-				wide	20
-				tall	20
-				visible 0 [!$OSX]
-				PinCorner	1
-				PinCorner	0 [$OSX]
+				visible 0
 			}
 			frame_close
 			{
-				xpos	r29
-				xpos	1 [$OSX]
-				ypos	7
-				ypos	3 [$OSX]
-				wide	20
-				tall	20
-				PinCorner	1
-				PinCorner	0 [$OSX]
+				visible 0
 			}
 
 			frame_brGrip
 			{
-				xpos	r15
-				ypos	r15
-				wide	14
-				tall	14
-				PinCorner	3
+				visible 0
 			}
 		}
 
@@ -198,7 +164,7 @@ Scheme
 			subpanel
 			{
 				xpos	10
-				ypos	28
+				ypos	10
 				wide	r10
 				tall	r48
 				AutoResize	3
